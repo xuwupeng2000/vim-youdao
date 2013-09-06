@@ -1,0 +1,71 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+
+# Internet host table
+
+# Use to be there
+::1     localhost
+127.0.0.1       localhost
+255.255.255.255	broadcasthost
+fe80::1%lo0	localhost
+
+172.25.1.27     ddb3
+10.3.1.132      svn.nzx.com
+172.25.23.55    wlg-ecapp1a
+172.25.24.96    wlp-ea-db1
+172.25.24.97    wlp-ea-db2
+172.25.24.37    wlg-ecdb1
+172.25.24.90    wlp-eabackup1           wlp-eabackup1.m-co.co.nz
+172.25.24.103   wlp-ecftadb1_NEW        wlp-ecftadb1.m-co.co.nz_NEW
+
+10.3.1.132      mailserver
+
+# New Auckland Hostnames
+172.25.22.96    akp-ea-db1
+172.25.22.97    akp-ea-db2
+
+# New Wellington Hostnames
+172.25.24.96    wlp-ea-db1
+172.25.24.97    wlp-ea-db2
+
+
+# New Auckland Logical Hostnames
+172.25.22.98    akp-ea-db-c1
+172.25.22.103   akp-ea-db-c2
+172.25.22.99    akp-ea-db-h1
+172.25.22.100   akp-ea-db-h2
+172.25.22.83    akp-ea-pg-c1
+
+# New Wellington Logical Hostnames
+172.25.24.98    wlp-ea-db-c1
+172.25.24.103   wlp-ea-db-c2
+172.25.24.99    wlp-ea-db-h1
+172.25.24.100   wlp-ea-db-h2
+172.25.24.101   wlu-ea-db-h1
+172.25.24.102   wlu-ea-db-h2
+
+#New Wellington App Servers
+172.25.23.64    wlp-ea-ap1
+172.25.23.65    wlp-ea-ap-c1
+172.25.23.66    wlp-ea-ap-c2
+172.25.23.67    wlu-ea-ap-c1
+172.25.23.68    wlu-ea-ap-c2
+172.25.23.72    wlp-ea-ap2
+172.25.23.73    wlp-ea-ap-c3
+172.25.23.74    wlp-ea-ap-c4
+172.25.23.75    wlp-ea-ap-c5
+172.25.23.76    wlu-ea-ap-c3
+172.25.23.77    wlu-ea-ap-c4
+
+#New Auckland App Servers
+172.25.21.64    akp-ea-ap1
+172.25.21.65    akp-ea-ap-c1
+172.25.21.65    akp-ea-ap-c1
+172.25.21.66    akp-ea-ap-c2
+172.25.21.72    akp-ea-ap2
+172.25.21.73    akp-ea-ap-c3
+172.25.21.74    akp-ea-ap-c4
+172.25.21.75    akp-ea-ap-c5
