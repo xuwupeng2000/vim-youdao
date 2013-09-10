@@ -27,6 +27,7 @@ export LPGDATA=~/linux_pg_data
 export DYLD_LIBRARY_PATH=~/projects/instantclient64
 export TNS_ADMIN=~/projects/instantclient64/tnsnames
 export NLS_LANG=AMERICAN_AMERICA.UTF8
+export PATH=$PATH:~/bin
 
 # RVM function
 source ~/.rvm/scripts/rvm
@@ -68,23 +69,23 @@ alias dingo='ssh deploy@dingo'
 alias silverbass='ssh jwu@silverbass'
 alias huntsman='ssh deploy@huntsman'
 alias recon-c4='ssh deploy@wlu-ea-ap-c4'
-alias recon-apc1='ssh ea_scope@172.25.21.65'
-alias recon-apc2='ssh deploy@172.25.21.66'
-alias recon-apc3='ssh ea_scope@172.25.21.73'
-alias recon-apc4='ssh deploy@172.25.21.74'
+alias recon-c2='ssh deploy@wlu-ea-ap-c2'
+#alias recon-apc1='ssh ea_scope@172.25.21.65'
+#alias recon-apc2='ssh deploy@172.25.21.66'
+#alias recon-apc3='ssh ea_scope@172.25.21.73'
+#alias recon-apc4='ssh deploy@172.25.21.74'
 alias recon-ecapp1a='ssh mongrel@172.25.23.55'
 alias nzxcom-app1='ssh jwu@nzxcom-app1'
+
 
 # Git 
 alias gitclone='git clone'
 alias gitpull='git pull --prune'
 alias gitadd='git add'
-alias gitlog="git log --pretty=oneline"
+alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gitpush='git push'
 alias gitdiff='git diff'
 alias gitcommit='git commit'
 alias gitcheckout='git checkout'
 alias gitbranch='git branch'
 alias gitstatus='git status' 
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

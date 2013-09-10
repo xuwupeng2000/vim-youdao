@@ -11,7 +11,8 @@ nnoremap gl <c-w>l
 " Color
 set t_Co=256
 set background=dark
-colorscheme xoria256
+"colorscheme xoria256
+colorscheme distinguished
 "colorscheme mrkn256
 "colorscheme solarized
 
@@ -39,9 +40,7 @@ vnoremap > >gv
 " General settings 
 set nocompatible
 syntax enable
-
-" Double bar
-set laststatus=2
+set laststatus=2 " Double bar
 set autoindent
 set nowrap
 set foldmethod=manual
@@ -76,7 +75,7 @@ set showmode
 nnoremap <leader>r :VroomRunTestFile<CR>
 
 " Vim-Rspec
-map <Leader>t :call RunCurrentSpecFile()<CR>
+map <leader>t :call RunCurrentSpecFile()<CR>
 
 " ZoomWin
 nnoremap <leader>z :ZoomWin<CR>
@@ -96,3 +95,7 @@ nnoremap <leader>f :CtrlP<CR>
 " Pbcopy
 vmap <C-x> :!pbcopy<CR>  
 vmap <C-c> :w !pbcopy<CR><CR> 
+
+" Taglist
+let g:Tlist_Ctags_Cmd = '~/bin/ctags'
+map <leader>t :TlistToggle<CR>
