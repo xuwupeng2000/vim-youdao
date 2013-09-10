@@ -2,11 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="gentoo"
 DISABLE_CORRECTION="true"
-source $ZSH/oh-my-zsh.sh
-export LC_ALL="en_US.UTF-8"
-export LANG="en_US.UTF-8"
-export LC_CTYPE="en_US.UTF-8"
-export LANGUAGE="en_US.UTF-8"
+export LC_ALL="en_NZ.UTF-8"
 plugins=(vagrant sublime gem git git-flow git-hubflow) 
 source $ZSH/oh-my-zsh.sh
 
@@ -39,8 +35,6 @@ alias ex='exit'
 # Postgres
 alias pgstart='pg_ctl -D $PGDATA start'
 alias pgstop='pg_ctl stop'
-alias lpgstart='pg_ctl -D $LPGDATA start'
-alias lpgstop='pg_ctl stop'
 
 # Config
 alias zc='vi ~/.zshrc'
@@ -48,8 +42,6 @@ alias vc='vi ~/.vimrc'
 alias sc='vi ~/.screenrc'
 alias tc='vi ~/.tmuxrc'
 alias vd='cd ~/.vim'
-alias top='top -stats pid,command,cpu,vsize -u -s 3'
-
 
 # Rails
 alias bdexec='bundle exec'
@@ -58,10 +50,6 @@ alias rspec='bundle exec rspec'
 alias bdinstall='bundle install'
 alias r2server='RAILS_ENV=development bundle exec script/server' 
 alias r2console='RAILS_ENV=development bundle exec script/console' 
-
-# Vag
-alias vbox='cd ~/Vagrant-boxes'
-alias vag='vagrant'
 
 # Severs
 alias wallaby='ssh deploy@wallaby'
