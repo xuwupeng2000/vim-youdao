@@ -93,9 +93,16 @@ nnoremap <leader>f :CtrlP<CR>
 " let g:yankring_replace_n_nkey = '<C-k>'
 
 " Pbcopy
-vmap <C-x> :!pbcopy<CR>  
-vmap <C-c> :w !pbcopy<CR><CR> 
+"vmap <C-x> :!pbcopy<CR>  
+"vmap <C-c> :w !pbcopy<CR><CR> 
 
 " Taglist
 let g:Tlist_Ctags_Cmd = '~/bin/ctags'
 map <leader>t :TlistToggle<CR>
+
+" vim-region-expand
+map K <Plug>(expand_region_expand)
+map J <Plug>(expand_region_shrink))
+
+" neo-complete
+let g:neocomplcache_enable_at_startup = 1

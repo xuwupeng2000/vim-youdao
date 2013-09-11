@@ -77,3 +77,6 @@ alias gitcommit='git commit'
 alias gitcheckout='git checkout'
 alias gitbranch='git branch'
 alias gitstatus='git status' 
+
+# Brew Vim
+alias vi='/usr/local/Cellar/vim/7.3.923/bin/vim'
