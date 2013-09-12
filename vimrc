@@ -100,9 +100,5 @@ nnoremap <leader>f :CtrlP<CR>
 let g:Tlist_Ctags_Cmd = '~/bin/ctags'
 map <leader>t :TlistToggle<CR>
 
-" vim-region-expand
-map K <Plug>(expand_region_expand)
-map J <Plug>(expand_region_shrink))
-
 " neo-complete
 let g:neocomplcache_enable_at_startup = 1
