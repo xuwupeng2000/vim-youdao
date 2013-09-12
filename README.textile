@@ -4,5 +4,5 @@ bq. "Jack's Vimrc"
 
 h2. Setup
 
-@curl -L https://github.com/xuwupeng2000/.vim/raw/master/tools/install.sh | sh@
+@curl -L https://raw.github.com/xuwupeng2000/.vim/master/tools/setup.sh | sh@
 
