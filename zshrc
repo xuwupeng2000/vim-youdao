@@ -31,6 +31,7 @@ source ~/.rvm/scripts/rvm
 # Alias
 alias ll='ls -al'
 alias ex='exit'
+alias top='top -o cpu'
 
 # Postgres
 alias pgstart='pg_ctl -D $PGDATA start'
