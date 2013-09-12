@@ -2,7 +2,6 @@
 	name = Jack Wu
 	email = jack.wu@nzx.com
 [http]
-	proxy = proxy.nzx.com:3128
 [color]
   status = auto
   diff = auto
@@ -27,5 +26,3 @@
   user = xuwupeng2000
 [push]
 	default = current
-[url "https://github.com/"]
-  insteadOf = git@github.com:

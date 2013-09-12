@@ -1,8 +1,3 @@
-# Setup the Proxy of NZX
-export rsync_proxy=http://proxy.nzx.com:3128
-export http_proxy=http://proxy.nzx.com:3128
-export https_proxy=http://proxy.nzx.com:3128
-
 # Language settings
 export LC_ALL='en_NZ.utf8'
 
