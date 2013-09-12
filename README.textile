@@ -1,8 +1,8 @@
+h2. "Jack's Vimrc"
+
 This is the .vim folder of Jack Wu.  It includes a .vimrc file. The settings inside are very handy and usefull.  It may be one of the most simple and usefull vimrc.
 
-bq. "Jack's Vimrc"
-
-h2. Setup
+h4. Setup
 
 @curl -L https://raw.github.com/xuwupeng2000/.vim/master/tools/setup.sh | sh@
 
