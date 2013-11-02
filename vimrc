@@ -12,8 +12,9 @@ nnoremap gl <c-w>l
 set t_Co=256
 set background=dark
 "colorscheme xoria256
+"set cul
+"hi CursorLine term=none cterm=none ctermbg=236
 colorscheme distinguished
-"colorscheme mrkn256
 "colorscheme solarized
 
 " Normal mode mappings 

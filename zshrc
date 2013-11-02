@@ -12,12 +12,14 @@ export PATH=$PATH:~/.rvm/bin
 export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:/usr/bin
 export PATH=$PATH:/bin
+export PATH=$PATH:/usr/lib/postgresql/9.1/bin/
 
 # RVM function
 source ~/.rvm/scripts/rvm
 
 # Alias
 alias ex='exit'
+alias tmux='tmux -2'
 
 # Postgres
 alias pgstart='pg_ctl -D $PGDATA start'
