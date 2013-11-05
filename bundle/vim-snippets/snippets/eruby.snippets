@@ -18,6 +18,11 @@ snippet sfin
 	<%= f.input :{$1} %>
 snippet sfact
 	<%= f.action :{$1} %>
+snippet sform
+	<%= simple_form_for :model do |f| %>
+	  <%= f.input :keyword %>
+	  <%= f.button :submit %>
+	<% end %>
 # Rails *****************************
 snippet rc
 	<% ${1} %>
