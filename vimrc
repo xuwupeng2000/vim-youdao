@@ -13,9 +13,9 @@ set t_Co=256
 set background=dark
 "colorscheme xoria256
 "set cul
-"hi CursorLine term=none cterm=none ctermbg=236
-colorscheme distinguished
-"colorscheme solarized
+hi CursorLine term=none cterm=none ctermbg=236
+colorscheme hemisu
+"colorscheme distinguished
 
 " Normal mode mappings 
 nnoremap <leader>ev :vs $MYVIMRC<CR>

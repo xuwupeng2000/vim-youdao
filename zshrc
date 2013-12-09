@@ -20,6 +20,7 @@ source ~/.rvm/scripts/rvm
 # Alias
 alias ex='exit'
 alias tmux='tmux -2'
+alias vi='vim'
 
 # Postgres
 alias pgstart='pg_ctl -D $PGDATA start'
