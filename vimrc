@@ -11,7 +11,7 @@ nnoremap gl <c-w>l
 " Color
 set t_Co=256
 set background=dark
-colorscheme distinguished
+colorscheme hybrid-light
 
 " Normal mode mappings 
 nnoremap <leader>ev :vs $MYVIMRC<CR>
