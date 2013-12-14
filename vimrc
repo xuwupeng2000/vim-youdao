@@ -11,11 +11,7 @@ nnoremap gl <c-w>l
 " Color
 set t_Co=256
 set background=dark
-"colorscheme xoria256
-"set cul
-"hi CursorLine term=none cterm=none ctermbg=236
 colorscheme distinguished
-"colorscheme solarized
 
 " Normal mode mappings 
 nnoremap <leader>ev :vs $MYVIMRC<CR>
@@ -81,10 +77,6 @@ map <leader>t :call RunCurrentSpecFile()<CR>
 " ZoomWin
 nnoremap <leader>z :ZoomWin<CR>
 
-" IntentGuide
-hi IndentGuidesOdd  ctermbg=black
-hi IndentGuidesEven ctermbg=darkgrey
-
 " Ctrlp
 nnoremap <leader>f :CtrlP<CR> 
 
@@ -93,13 +85,5 @@ nnoremap <leader>f :CtrlP<CR>
 " let g:yankring_replace_n_pkey = '<C-j>'
 " let g:yankring_replace_n_nkey = '<C-k>'
 
-" Pbcopy
-"vmap <C-x> :!pbcopy<CR>  
-"vmap <C-c> :w !pbcopy<CR><CR> 
-
-" Taglist
-let g:Tlist_Ctags_Cmd = '~/bin/ctags'
-map <leader>t :TlistToggle<CR>
-
 " neo-complete
-let g:neocomplcache_enable_at_startup = 1
+"let g:neocomplcache_enable_at_startup = 1
