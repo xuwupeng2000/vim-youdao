@@ -63,19 +63,8 @@ set clipboard=unnamed
 " Nerd Comments
 filetype plugin on
 
-" Paste Mode
-nnoremap <leader>p :set invpaste paste?<CR>
-set pastetoggle=<leader>p
-set showmode
-
 " Vroom
 nnoremap <leader>r :VroomRunTestFile<CR>
-
-" Vim-Rspec
-map <leader>t :call RunCurrentSpecFile()<CR>
-
-" ZoomWin
-nnoremap <leader>z :ZoomWin<CR>
 
 " Ctrlp
 nnoremap <leader>f :CtrlP<CR> 
