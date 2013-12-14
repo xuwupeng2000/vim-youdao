@@ -11,7 +11,15 @@ nnoremap gl <c-w>l
 " Color
 set t_Co=256
 set background=dark
+<<<<<<< HEAD
 colorscheme distinguished
+=======
+"colorscheme xoria256
+"set cul
+hi CursorLine term=none cterm=none ctermbg=236
+colorscheme hemisu
+"colorscheme distinguished
+>>>>>>> ac8d30c618cba8e11d28342d8940e8263446d939
 
 " Normal mode mappings 
 nnoremap <leader>ev :vs $MYVIMRC<CR>
