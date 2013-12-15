@@ -5,11 +5,11 @@ let g:loaded_OpenYoudao= 0
 let s:keepcpo           = &cpo
 set cpo&vim
 
-command! -nargs=* youdao call OpenYoudao(<f-args>)
+command! -nargs=* Youdao call OpenYoudao(<f-args>)
 
 function! OpenYoudao(...)
-  let method_name = a:0 ? a:1 : expand("<cWORD>")
-  exec 'Open'.' '.'http://dict.youdao.com/search?q='.method_name
+  let word_var = a:0 ? a:1 : expand("<cWORD>")
+  exec 'Open'.' '.'http://dict.youdao.com/search?q='.word_var
 endfunction
 
 let &cpo= s:keepcpo
