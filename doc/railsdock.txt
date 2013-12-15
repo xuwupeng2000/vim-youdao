@@ -1,15 +1,15 @@
-*railsdock.txt*  Open apidock.com for method tips
+*youdao.txt*  Open dict.youdao.com for translating
 
 Author:  Jack Wu
-Repo:    https://github.com/xuwupeng2000/vim-rails-apidock.git
+Repo:    https://github.com/xuwupeng2000/vim-youdao.git
  
 License: Same terms as Vim itself (see |license|)
 
-SUMMARY                                         *vim-railsdock*
+SUMMARY                                         *vim-youdao*
 
-Easily open the apidock.com page for method tips from Vim.
+Easily open the dict.youdao.com page for translating.
 
-                                                *railsdock-:Api*
-:Gem [{gem-name}]     Use :Api rails to open up rails on apidock.com.
+                                                *youdao.vim-:youdao*
+:Gem [{gem-name}]     Use :youdao rails to open translation page on dict.youdao.com.
                       If the cursor is located on a gem name you can
-                      use :Api to open up the apidock page for that method.
+                      use :youdao to open up the tanslation page for that word.

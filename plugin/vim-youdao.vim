@@ -5,7 +5,7 @@ let g:loaded_OpenYoudao= 0
 let s:keepcpo           = &cpo
 set cpo&vim
 
-command! -nargs=* Api call OpenYoudao(<f-args>)
+command! -nargs=* youdao call OpenYoudao(<f-args>)
 
 function! OpenYoudao(...)
   let method_name = a:0 ? a:1 : expand("<cWORD>")

@@ -1,15 +1,11 @@
-# railsdock.vim
+# youdao.vim
 
 Easily open the [Youdao Dict](http://dict.youdao.com) page for dict function.
 
 ## Usage
 
-Use `:youdao` to open up [Youdao Dict](http://dict.youdao.com). If the cursor is located on a method name you can use `:youdao` to open up the apidock page for that method.
+Use `:youdao` to open up [Youdao Dict](http://dict.youdao.com). If the cursor is located on a method name you can use `:youdao` to open up the tanslation page for that word.
 ![usage][usage]
-
-<!--
-   -[usage]: https://dl-web.dropbox.com/get/Screenshots/Screenshot%202013-12-09%2011.04.39.png?w=AAAQsJDUXCPzG6Y9xQyCzEkAOujN3aRLLO2iOVEneufwDA 'Usage'
-   -->
 
 ## Installation
 
@@ -20,9 +16,9 @@ Using [pathogen.vim](https://github.com/tpope/vim-pathogen):
     git clone https://github.com/xolox/vim-shell.git
     git clone https://github.com/xolox/vim-misc.git
     # Install railsdock.vim
-    git clone https://github.com/xuwupeng2000/vim-rails-apidock.git    
+    git clone https://github.com/xuwupeng2000/vim-youdao.git
 
-Otherwise just copy the contents of vim-apidock's plugin folder to `~/.vim/plugins/`.
+Otherwise just copy the contents of vim-youdao's plugin folder to `~/.vim/plugins/`.
 
 ## Requirements
 
