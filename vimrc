@@ -68,8 +68,3 @@ nnoremap <leader>r :VroomRunTestFile<CR>
 
 " Ctrlp
 nnoremap <leader>f :CtrlP<CR> 
-
-" YankRing
-" edited the source of YankRing
-" let g:yankring_replace_n_pkey = '<C-j>'
-" let g:yankring_replace_n_nkey = '<C-k>'
