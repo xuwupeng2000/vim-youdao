@@ -19,9 +19,9 @@ nnoremap nt :NERDTreeToggle<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>s :w<CR>
 nnoremap <leader>r q
-nnoremap <c-v> :w<CR>
-nnoremap <c-x> :q<CR>
-nnoremap <c-X> :q!<CR>
+nnoremap <c-s> :w<CR>
+nnoremap <c-q> :q<CR>
+nnoremap <c-Q> :q!<CR>
 
 " Disable capital K
 nnoremap K k
