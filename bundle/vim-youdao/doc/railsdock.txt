@@ -1,0 +1,15 @@
+*youdao.txt*  Open dict.youdao.com for translating
+
+Author:  Jack Wu
+Repo:    https://github.com/xuwupeng2000/vim-youdao.git
+ 
+License: Same terms as Vim itself (see |license|)
+
+SUMMARY                                         *vim-youdao*
+
+Easily open the dict.youdao.com page for translating.
+
+                                                *youdao.vim-:youdao*
+:Gem [{gem-name}]     Use :youdao rails to open translation page on dict.youdao.com.
+                      If the cursor is located on a gem name you can
+                      use :youdao to open up the tanslation page for that word.
