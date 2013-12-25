@@ -21,6 +21,8 @@ source ~/.rvm/scripts/rvm
 alias ex='exit'
 alias tmux='tmux -2'
 alias vi='vim'
+alias v='vim'
+alias open='nautilus'
 
 # Postgres
 alias pgstart='pg_ctl -D $PGDATA start'
