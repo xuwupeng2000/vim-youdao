@@ -50,3 +50,6 @@ alias gitcommit='git commit'
 alias gitcheckout='git checkout'
 alias gitbranch='git branch'
 alias gitstatus='git status' 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

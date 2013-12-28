@@ -68,3 +68,10 @@ nnoremap <leader>r :VroomRunTestFile<CR>
 
 " Ctrlp
 nnoremap <leader>f :CtrlP<CR> 
+
+" EasyClip
+let g:EasyClipUsePasteToggleDefaults = 0
+
+" YankStack
+nmap <c-f> <Plug>yankstack_substitute_older_paste
+nmap <c-d> <Plug>yankstack_substitute_newer_paste
