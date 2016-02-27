@@ -15,7 +15,7 @@ Using [pathogen.vim](https://github.com/tpope/vim-pathogen):
     # Install dependencies
     git clone https://github.com/xolox/vim-shell.git
     git clone https://github.com/xolox/vim-misc.git
-    # Install railsdock.vim
+    # Install vim youdao
     git clone https://github.com/xuwupeng2000/vim-youdao.git
 
 Otherwise just copy the contents of vim-youdao's plugin folder to `~/.vim/plugins/`.
